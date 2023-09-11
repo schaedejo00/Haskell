@@ -1,10 +1,10 @@
 {
-    "haskell.logFile": "H:\\vscode\\haskell\\haskell.log",
+    "haskell.logFile": "haskell.log",
     "haskell.upgradeGHCup": false,
     "haskell.formattingProvider": "stylish-haskell",
     "haskell.manageHLS": "GHCup",
     "code-runner.runInTerminal": false,
     "code-runner.executorMap": {
-        "haskell": "\"C:\\Programme\\Haskell Platform\\8.6.5\\bin\\runghc.exe\" $fileNameWithoutExt.hs"
+        "haskell": "runghc.exe $fileNameWithoutExt.hs"
     }
 }

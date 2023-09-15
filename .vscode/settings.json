@@ -1,9 +1,9 @@
 {
     "haskell.logFile": "haskell.log",
     "haskell.upgradeGHCup": false,
-    "haskell.formattingProvider": "stylish-haskell",
+    "haskell.formattingProvider": "ormolu",
     "haskell.manageHLS": "GHCup",
-    "code-runner.runInTerminal": false,
+    "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "haskell": "runghc.exe $fileNameWithoutExt.hs"
     }

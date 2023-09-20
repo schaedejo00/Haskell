@@ -10,8 +10,8 @@ factorial n = n*factorial (n-1)
 
 roots :: Float -> (Float, Float)
 roots a = (x1, x2)  where
-         x1 = sqrt(a)
-         x2 = (-1)*sqrt(a)
+         x1 = sqrt a
+         x2 = (-1)*sqrt a
 
 
 addMultiple :: (Float, Float, Float) -> Float
